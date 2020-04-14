@@ -35,7 +35,7 @@
       let tableRow = document.querySelector('.set');
       let buttons = tableRow.getElementsByTagName('button');
       for(let i=0; i<buttons.length; i++){
-       buttons[0].style.backgroundImage = "url('images/tom1.png')";
+       buttons[0].style.backgroundImage = "url('images/tom1.png')"
        buttons[1].style.backgroundImage = "url('images/tom2.png')";
        buttons[2].style.backgroundImage = "url('images/tom3.png')";
        buttons[3].style.backgroundImage = "url('images/tom4.png')";
@@ -43,13 +43,11 @@
        buttons[5].style.backgroundImage = "url('images/snare.png')";
        buttons[6].style.backgroundImage = "url('images/crash.png')";
       }
-      //tableRow ;
-      //buttons;
+    
 
         /********enabling buttons to respond to mouse click to produce sound****** */
 
-        //let tableRow = document.querySelector('.set');
-        //let buttons = tableRow.getElementsByTagName('button');
+        
    let i;
     for( i=0; i<buttons.length; i++)
     console.log(i);
@@ -114,92 +112,13 @@ document.addEventListener('keypress', function(event){
     }
 })
      }
-//}
-/*const tableRow = document.querySelector('.set');
-      const buttons = tableRow.getElementsByTagName('button');
-     const iterable = buttons;
-     for (const value of iterable){
-       console.log(value);
 
-     }*/
-    /*************trial n error******************/
-    
-     const tableRow = document.querySelector('.set');
-      const buttons = tableRow.getElementsByTagName('button');
-     const btn = Object.keys(buttons)
-     //const num = parseInt(btn)
-     console.log(btn);
 
-    /* btn.forEach((btn[i]).addEventListener('click', () => {
-      if(btn[0]){
-                 btn.innerHTML= new Audio('sounds/tom-1.mp3').play();
-                 console.log('a');
-               }else if(btn[1]){
-                btn.innerHTML= new Audio('sounds/tom-2.mp3').play();
-                 console.log('b')
-               }else if(btn[2]){
-                btn.innerHTML = new Audio('sounds/tom-3.mp3').play();
-                 console.log('c')
-               }else if(btn[3] ){
-                btn.innerHTML = new Audio('sounds/tom-4.mp3').play();
-                 console.log('d')
-               }else if(btn[4]){
-                btn.innerHTML = new Audio('sounds/kick-bass.mp3').play();
-                 console.log('e')
-               }else if(btn[5]){
-                btn.innerHTML = new Audio('sounds/snare.mp3').play();
-                 console.log('f')
-               }else if(btn[6]){
-                btn.innerHTML = new Audio('sounds/crash.mp3').play();
-                 console.log('g')
-               }else{
     
-               }
-     }
-    
-     )
-     )*/
-    
-
-    /* for(let i=0; i<btn.length; i++){
-        let tableRow = document.querySelector('.set');
-      let buttons = tableRow.getElementsByTagName('button');
-        buttons[i].addEventListener('click', () => {
-         // buttons[i].click = function (){
-          console.log[i]
-            if(buttons[0]){
-                buttons.innerHTML = new Audio('sounds/tom-1.mp3').play();
-                console.log('a')
-              }else if(buttons[1]){
-                buttons.innerHTML = new Audio('sounds/tom-2.mp3').play();
-                console.log('b')
-              }else if(buttons[2]){
-                buttons.innerHTML = new Audio('sounds/tom-3.mp3').play();
-                console.log('c')
-              }else if(buttons[3] ){
-                buttons.innerHTML = new Audio('sounds/tom-4.mp3').play();
-                console.log('d')
-              }else if(buttons[4]){
-                buttons.innerHTML = new Audio('sounds/kick-bass.mp3').play();
-                console.log('e')
-              }else if(buttons[5]){
-                buttons.innerHTML = new Audio('sounds/snare.mp3').play();
-                console.log('f')
-              }else if(buttons[6]){
-                buttons.innerHTML = new Audio('sounds/crash.mp3').play();
-                console.log('g')
-              }else{
-    
-              }
-}
-  
-        // })
-        )}//)}*/
-
 
      
 
-    /********Assigning mouse clicks((click event) to each button*************/
+   
 
     
 

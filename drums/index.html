@@ -26,45 +26,7 @@
     The Drum Kit.
   </footer>
 
-  <script src="app.js">
-    drummer();
-    function drummer(){
-      let tableRow = document.querySelector('.set');
-      let buttons = tableRow.getElementsByTagName('button');
-      for(let i=0; i<buttons.length; i++){
-       buttons[0].style.backgroundImage = "url('images/crash.png')";
-       buttons[1].style.backgroundImage = "url('images/kick.png')";
-       buttons[2].style.backgroundImage = "url('images/snare.png')";
-       buttons[3].style.backgroundImage = "url('images/tom1.png')";
-       buttons[4].style.backgroundImage = "url('images/tom2.png')";
-       buttons[5].style.backgroundImage = "url('images/tom3.png')";
-       buttons[6].style.backgroundImage = "url('images/tom4.png')";
-      }
-      
-    
-document.addEventListener('keypress', function(event){
-        if(event.key == 'W' || event.key == 'w' ){
-        new Audio('sounds/tom-1.mp3').play();
-      }else if(event.key == 'A' || event.key == 'b'){
-        new Audio('sounds/tom-2.mp3').play();
-    }else if(event.key === 'S'  || event.key == 's'){
-        new Audio('sounds/tom-3.mp3').play();
-    }else if (event.key === 'D' || event.key == 'a' ){
-        new Audio('sounds/tom-4.mp3').play();
-    }else if(event.key === 'J' || event.key == 'j'){
-         new Audio('sounds/kick-bass.mp3').play();
-    }else if(event.key === 'K' || event.key == 'k'){
-        new Audio('sounds/snare.mp3').play();
-    }else if(event.key === 'L'  || event.key == 'l'){
-        new Audio('sounds/crash.mp3').play();
-    }else{
-
-    }
-})
-     }
-  
-     
-  </script>
+  <script src="app.js"></script>
 </body>
 
 </html>
